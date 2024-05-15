@@ -108,7 +108,7 @@ input[type=email] {
     padding: 12px 20px;
     margin: 1.2rem 0;
     display: block;
-    border: 1px solid antiquewhite;
+    border: 1px solid white;
 }
 button{
     width: 50%;
@@ -136,7 +136,7 @@ button:hover{
 /* ################_____________________________post a job__________________________________ */
 .about2{
     background-color: #222;
-    color: antiquewhite;
+    color: white;
     justify-content: space-between;
 }
 .about2-left{
@@ -236,7 +236,7 @@ button:hover{
 /* @############################processs  ___________________________________a */
 .testimony{
     background-color: #222;
-    color: antiquewhite;
+    color: white;
 }
 .testimony .test{
     background-color: #505050;
@@ -348,7 +348,7 @@ footer li:hover {
     }
 
     nav ul {
-        background: whitesmoke;
+        background: white;
         display: none;
     }
 
