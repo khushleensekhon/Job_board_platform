@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="about2.css" />
+    <style>
+     
+
+      @media (max-width: 1080px) {
+        .img2 {
+          width: 98%;
+          height: 100%;
+        }
+        .head {
+          font-size: 45px;
+        }
+        .header {
+          padding-top: 50px;
+        }
+        .p {
+          font-size: 21px;
+        }
+        p1 {
+        }
+        .container2 p {
+          font-size: 21px;
+        }
+        .container2 h {
+          font-size: 45px;
+        }
+      }
+
+      @media (max-width: 800px) {
+        .head {
+          justify-content: center;
+        }
+        .container {
+          flex-direction: column;
+        }
+        .img2 {
+          width: 87vw;
+          height: 100%;
+        }
+        #about-container3 {
+          flex-direction: column-reverse;
+        }
+
+        p1 {
+          font-size: 50px;
+        }
+        .container2 {
+          flex-direction: column;
+          padding-bottom: 20px;
+        }
+        .content {
+          flex-wrap: wrap;
+        }
+        .header {
+          padding-top: 50px;
+          width: auto;
+          height: fit-content;
+        }
+        .container2 h {
+          font-size: 40px;
+        }
+        p2 {
+          font-size: 20px;
+        }
+        .header2 {
+          width: auto;
+          height: auto;
+        }
+        .header3 {
+          width: auto;
+          height: auto;
+        }
+        .collapsible{
+            width: 26%;
+            font-size: 15px;
+        }
+      }
+      @media (max-width: 535px) {
+        .container {
+          padding: 0px 22px;
+        }
+        .collapsible{
+          width: 37%;
+        }
+        p {
+          font-size: 21px;
+        }
+        .container2 {
+          padding: 0px 22px;
+        }
+      }
+      @media (max-width: 350px) {
+        .container2 {
+          padding-bottom: 36px;
+        }
+        p {
+          font-size: 12px;
+        }
+        .head {
+          font-size: 17px;
+          font-weight: bold;
+        }
+        .header h3 {
+          font-size: 12px;
+        }
+        p1 {
+          font-size: 29px;
+        }
+        p2 {
+          font-size: 13px;
+        }
+        .container2 p {
+          font-size: 12px;
+        }
+        .container2 h {
+          font-size: 17px;
+        }
+        .collapsible{
+            width: 45%;
+            font-size: 3vw;
+        }
+                                        
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h class="head"> About Job Onboard</h>
+        <br />
+        <br />
+        <p>
+          Job Onboard is the #1 job site in the world1 with over 300M+ unique
+          visitors every month. Job Onboard strives to put job seekers first,
+          giving them free access to search for jobs, post resumes, and research
+          companies. Every day, we connect millions of people to new
+          opportunities.
+        </p>
+        <br />
+        <button class="collapsible" onclick="toggleCollapse()">
+          Read more
+        </button>
+        <div class="content2">
+          <h3>
+            Please note that Job Onboard and its affiliates are directly or
+            indirectly owned by a publicly traded chitkara university, Recruit
+            Holdings Co., Ltd.
+          </h3>
+        </div>
+      </div>
+      <div class="picture">
+        <img
+          class="img2"
+          src="https://www.cheggindia.com/wp-content/uploads/2021/09/Easy-Online-Jobs-for-Students-Earn-with-Zero-Investment.png"
+          height="500px"
+          width="650px"
+        />
+      </div>
+    </div>
+    <div class="content">
+      <span class="number">
+        <p1>300+</p1>
+        <br />
+        <p2
+          >Unique Monthly<br />
+          Visitors<sup>2</sup></p2
+        >
+      </span>
+      <span class="number">
+        <p1>245M</p1>
+        <br />
+        <p2> Resumes on Indeed </p2>
+        <br />
+      </span>
+      <span class="number">
+        <p1>890M+</p1>
+        <br />
+        <p2
+          >Total ratings and reviews <br />
+          reviews
+        </p2>
+      </span>
+    </div>
+    <div class="container2">
+      <div class="picture2">
+        <img
+          class="img2"
+          src="https://s7d1.scene7.com/is/image/CENODS/10102-careertips-colleagues?$responsive$&wid=700&qlt=90,0&resMode=sharp2"
+          height="500px"
+          width="650px"
+        />
+      </div>
+      <div class="header2">
+        <h class="big">Our People</h>
+        <br />
+        <br />
+        <p>
+          At Job Onboard, our mission is to help people get jobs.We have more
+          than ~13,000 global employees passionately pursuing this purpose and
+          improving the recruitment journey through real stories and data.
+        </p>
+        <button class="collapsible" onclick="toggleCollapse1()">
+          Read more
+        </button>
+        <div class="content3">
+          <p>
+            We foster a collaborative workplace that strives to create the best
+            experience for job seeke
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container2" id="about-container3">
+      <div class="header3">
+        <h class="big"> Our Leadership</h>
+        <br />
+        <p>
+          Job Onboard leadership team is diverse, dedicated and committed to
+          empowering our employees to fulfill our mission: We help people get
+          jobs. By fostering strong partnerships and collaboration, they serve
+          and support job seekers, employers, society and our employees.
+        </p>
+        <button class="collapsible" onclick="toggleCollapse2()">
+            Read more
+          </button>
+          <div class="content4">
+            <p> By fostering strong partnerships and collaboration, they serve
+                and support job seekers, employers, society and our employees.</p>
+          </div>
+      </div>
+      <div class="picture">
+        <img
+          class="img2"
+          src="https://www.organon.com/wp-content/uploads/sites/2/2022/08/6-Panel.png?resize=1036,551"
+          height="500px"
+          width="650px"
+        />
+      </div>
+    </div>
+    <script>
+      function toggleCollapse() {
+        var content = document.querySelector(".content2");
+
+        content.style.display =
+          content.style.display === "none" || content.style.display === ""
+            ? "block"
+            : "none";
+      }
+      function toggleCollapse1() {
+        var content = document.querySelector(".content3");
+
+        content.style.display =
+          content.style.display === "none" || content.style.display === ""
+            ? "block"
+            : "none";
+      }
+      function toggleCollapse2() {
+        var content = document.querySelector(".content4");
+
+        content.style.display =
+          content.style.display === "none" || content.style.display === ""
+            ? "block"
+            : "none";
+      }
+    </script>
+  </body>
+</html>

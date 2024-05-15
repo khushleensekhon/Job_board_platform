@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="accessibility.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    @media (max-width:1210px){
+      .margin p{
+   font-size: 20px;
+   padding-top: 23.9px;
+      }
+      .middle li{
+        font-size: 17px;
+      }
+      .margin{
+padding-top: 25px;
+      }
+      .p4{
+        font-size: 35px;
+      }
+      .header0 h{
+        font-size: 41px;
+      }
+      .header0 h2{
+        font-size: 25px;
+      }
+      .p5{
+        font-size: 35px;
+        font-weight: 500;
+      }
+      .header2 p{
+        font-size: 23px;
+      
+      }
+      
+      
+    }
+    @media (max-width:950px){
+      .container{
+        flex-direction: column;
+      }
+      .middle{
+        margin: 7px;
+  padding-left: 47px;
+  padding-right: 245px;
+      }
+      .center{
+        width: 79%;
+    height: 361px;
+      }
+      .ass2{
+        width:90vw;
+      }
+      .header0{
+        width: 84vw;
+        height:474px;
+      }
+      .header0 .head{
+        display: flex;
+
+      }
+      .container3{
+        flex-direction: column;
+        padding-top: 63px;
+      }
+      .header2{
+        width: 100%;
+      }
+    }
+    @media (max-width:610px) {
+      .center{
+        height:463px;
+      }
+      .ass2 {
+    width: 80vw;
+    height: auto;
+  }
+      .middle {
+    
+    padding-right: 154px;
+      }
+      .header0 p{
+        font-size: 20px;
+      }
+      .header2 p{
+        font-size: 20px;
+      }
+      .header0{
+        padding-top: 0px;
+      }
+      
+    }
+    @media (max-width:447px) {
+      .header0 h {
+    font-size: 29px;
+  }
+  .header0 {
+    height: 429px;
+  }
+  .header0 h2 {
+    font-size: 18px;
+  }
+  .header2 p {
+    font-size: 17px;
+  }
+  .header2{
+    height: 0px;
+  }
+  .header0 p {
+    font-size: 17px;
+  }
+  .collapsible {
+ 
+  width: 120px;
+   font-size: 13px;
+  }
+  .center {
+    width: 93%;
+  }
+  .p4 {
+    font-size: 28px;
+  }
+  .margin p {
+    
+    padding-top: 0.9px;
+  }
+  .p5 {
+    font-size: 29px;
+   
+  }
+  
+
+}
+  
+  </style>  
+  </head>
+
+  <body>
+    
+    <div class="container">
+      <div class="picture">
+        <img  class="ass2" src="ass.png"  />
+      </div>
+      <div class="header0">
+        <h class="head">
+          Accessibility at<br />
+          Job Onboard</h
+        >
+        <h2>We help people get jobs. All people.</h2>
+        <br />
+        <p>
+          Job Onboard is committed to ensuring an accessible experience for all
+          people who use our website. We are continually evaluating our
+          offerings for accessibility, educating our employees about the
+          importance of accessibility, and continually improving the
+          accessibility of our experiences. 
+        </p>
+        <button class="collapsible" onclick="toggleCollapse()">
+          Read more
+        </button>
+        <div class="content2">
+          <p>Job Onboard is committed to helping
+            all people find jobs, and accessibility is an essential component of
+            our mission.</p>
+        </div>
+      </div>
+    </div>
+    <div class="center">
+      <div class="margin">
+        <h2 class="p4">Measures to support accessibility</h2>
+        <br />
+        <p style="color: rgb(48, 24, 154)">
+          Job onboard takes the following measures to enhance accessibility in
+          our workplaces and products:
+        </p>
+      </div>
+      <br />
+
+      <div class="middle">
+        <ul>
+          <li>Consider accessibility throughout our internal policies</li>
+          <li>Provide continual accessibility training for our staff</li>
+          <li>Assign clear accessibility targets and responsibilities</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container3">
+      <div class="picture2">
+        <img class="ass2"
+          src="https://s7d1.scene7.com/is/image/CENODS/10102-careertips-colleagues?$responsive$&wid=700&qlt=90,0&resMode=sharp2"
+        />
+      </div>
+      <div class="header2">
+        <h2 class="p5">Conformance status</h2>
+        <br />
+        <br />
+        <p>
+          The Web Content Accessibility Guidelines (WCAG) define requirements
+          for designers and developers to improve accessibility for people with
+          disabilities. Digital inclusion is part of our larger Diversity,
+          Inclusion and Belonging strategy .<button class="collapsible" onclick="toggleCollapse1()">
+            Read more
+          </button>
+          <div class="content3">
+            <p>we are guided by WCAG 2.1, Level
+              AA in our efforts to design and develop accessible offerings. Since we
+              refer to a WCAG 2.1, AA standard, our offerings continually strive to
+              meet the needs of all people as defined by the ADA and Section 508.</p>
+          </div>
+        </p>
+      </div>
+    </div>
+    <script>
+      function toggleCollapse() {
+        var content = document.querySelector(".content2");
+
+        content.style.display =
+          content.style.display === "none" || content.style.display === ""
+            ? "block"
+            : "none";
+      }
+      function toggleCollapse1() {
+        var content = document.querySelector(".content3");
+
+        content.style.display =
+          content.style.display === "none" || content.style.display === ""
+            ? "block"
+            : "none";
+      }
+      
+    </script>
+  </body>
+</html>
