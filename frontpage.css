@@ -1,0 +1,181 @@
+
+.main{
+    background-color: navy;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom:30px;
+    padding-right: 0%;
+    color: antiquewhite;
+}
+.main2{
+    background-color: rgb(223, 229, 245);
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+.post2{
+    padding top: 0px;
+    font-size: 45px;
+    font-family:Garamond, serif;
+    text-align: top;
+    height: 100%;
+
+    
+}
+
+.photo1{
+    float: left;
+    width: 45%;
+   
+}
+.post2{
+    float: left;
+    width: 50%;
+    height: 25%;
+}
+.find{
+    padding-top: 150px;
+    padding-bottom: 50px;
+    font-size: 40px;
+    font-family: Garamond, serif;
+}
+.main3{
+    padding-top: 70px;
+}
+.main4{
+    background-color: navy;
+}
+.why{
+    font-size: 50px;
+    font-family: Garamond, serif;
+    color: antiquewhite;
+}
+.one{
+    display: inline-block;
+    width: 20%;
+    padding-left: 15px;
+}
+.post{
+    display: inline-block;
+    width: 8%;
+}
+.cvs{
+    display: inline-block;
+    width: 8%;
+}
+.products{
+    display: inline-block;
+    width: 8%;
+}
+.resources{
+    display: inline-block;
+    width: 25%;
+}
+.help{
+    display: inline-block;
+    width: 8%;
+}
+.signin{
+    display: inline-block;
+    width: 8%;
+}
+.findjobs{
+    display: inline-block;
+    width: 8%;
+}
+.find{
+    display: inline-block;
+    width: 30%;
+    padding-left: 20px;
+}
+.find2{
+   
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 42px;
+    padding-bottom: 30px;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 30%;
+    height: 70%;
+}
+.find3{
+
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 30%;
+    height: 70%;
+}
+.why{
+    padding-left: 20px;
+}
+.main4{
+    padding-top: 20px;
+    margin-top: 100px;
+}
+.pic3{
+    padding-left: 150px;
+}
+.work{
+    padding-left: 20px;
+    color: black;
+    font-size: 55px;
+}
+.pic4{
+    align-items: center;
+   padding-left: 180px;
+}
+.last{
+    background-color: rgb(255, 244, 230)
+}
+.last1{
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    width: 40%;
+    display: inline-block;
+}
+.sub{
+    font-size: 18px;
+    padding-left: 50px;
+}
+.contact{
+    display: inline-block;
+    padding-left: 50px;
+}
+.sign{
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 350px;
+}
+.ab{
+   
+    display: inline-block;
+    padding-left: 120px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 23px;
+    color: rgb(97, 96, 96);
+    padding-bottom: 200px;
+    position: relative;
+
+}
+.ab1{
+    font-size: 15px;
+}
+.button1{
+    display: inline-block;
+    padding-left: 110px;
+
+}
+.button2{
+    display: inline-block;
+    padding-left: 110px;
+}
+
