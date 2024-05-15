@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'poppins', 'sans serif';
+        box-sizing: border-box;
+    }
+    .head {
+        text-align: center;
+        color: #fff;
+        height: 100px;
+        background-image: linear-gradient(#111937, #3852ba);
+       padding: 20px;
+    }
+    .head h1{
+        font-size: 40px;
+    }
+    .head p{
+        font-size: 25px;
+    }
+    .main li{
+        color: #fff;
+        list-style: none;
+        padding: 20px;
+        font-size: 20px;
+        align-items: center;
+        text-align: center;
+    }
+    .main li i{
+        padding-bottom:4px ;
+    }
+    .hero{
+        width: 100%;
+        height: 100vh;
+        background-image:linear-gradient(rgba(0,0,0,0.7), #3551b5), url(river.jpeg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    form{
+        width: 90%;
+        max-width: 600px;
+        margin: 20px;
+    }
+    .input-group{
+        margin-bottom: 30px;position: relative;
+    }
+    input, textarea{
+       width: 100%;
+       padding: 10px;
+       outline: 0;
+       border: 1px solid #fff;
+       background: transparent;
+       font-size: 15px;
+    }
+    label{
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top:0;
+        padding: 10px;
+        color: #fff;
+        cursor: text;
+        transition: 0.2s;
+    }
+    button{
+        padding: 10px 0;
+        color: #fff;
+        outline: none;
+        background: transparent;
+        border: 1px solid #fff;
+        width: 100%;
+        cursor: pointer;
+    }
+    input:focus~label,
+    input:valid~label,
+    textarea:focus~label,
+    textarea:valid~label{
+        top: -35px;
+        font-size: 14px;
+    }
+    .row{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+    }
+    .row .input-group{
+        flex-basis: 48%;
+    }
+    @media screen and (max-width:663px){
+        textarea{
+            width: 100%;
+        }
+       form{
+        margin-right: 10px;
+       }
+    }
+    @media screen  and (max-width:973px){
+        form{
+            margin-right: 10px;
+        }
+        .main li{
+            font-size: 15px;
+        }
+        h1{
+            font-size: 30px;
+        }
+        p{
+            font-size: 15px;
+        }
+        .head{
+            height: 150px;
+            padding-bottom: 0px;
+        }
+    }
+</style>
+</head>
+<body>
+    <div class="head">
+        <h1> GET IN TOUCH WITH US...</h1>
+        <P>Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+        a matter of hours to help you.</P>
+    </div>
+    <div class="hero">
+        <div class="main">
+            <div class="col-md-3 text-center">
+                <ul class="list-unstyled mb-0">
+                    <li><i class="fas fa-map-marker-alt fa-2x"  style=" color: #fff;"></i><br>
+                        <p>Address</p>
+                        <p>Chitkara University</p><p> Rajpura , Punjab</p>
+                    </li>
+    
+                    <li><i class="fas fa-phone mt-4 fa-2x"  style=" color: #fff;"></i><br>
+                        <p>Phone no</p>
+                        <p>+ 01 234 567 8954</p>
+                    </li>
+    
+                    <li><i class="fas fa-envelope mt-4 fa-2x"  style=" color: #fff;"></i><br>
+                        <p>Mail me</p>
+                        <p>contact@notepad.com</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <form>
+            
+            <div class="row">
+                <div class="input-group">
+                    <input type="text" id="name" required>
+                    <label for="name"><i class="fa-solid fa-user " style="color: #fff;"></i>Your Name</label> 
+                </div>
+                <div class="input-group">
+                    <input type="text" id="number" required>
+                    <label for="number"><i class="fa-solid fa-square-phone" style="--fa-secondary-color: #fcfcfc;"></i> Phone No.</label> 
+                </div>
+            </div>
+            <div class="input-group">
+                <input type="email" id="email" required>
+                <label for="name"><i class="fa-solid fa-envelope" style="color: #ffffff;"></i> Email Id</label> 
+            </div>
+            <div class="input-group">
+               <textarea id="message" rows="8" required></textarea>
+                <label for="message"><i class="fa-solid fa-comments" style="color: #ffffff;"></i> Your Message</label> 
+            </div>
+            <button type="submit">Submit <i class="fa-regular fa-paper-plane"></i></button> 
+        </form>
+    </div>
+</body>
+</html>
